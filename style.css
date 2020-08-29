@@ -1,0 +1,23 @@
+body{
+font-family: 'Asap';
+color:white;
+padding:0;
+margin:0;
+}
+
+/*Start Navbar style */
+.navbar{
+    padding:16px;
+    font-size:17px;
+    font-weight:700;
+    text-transform: uppercase;
+    background:rgba(0,0,0,.8)!important;
+}
+.navbar-brand img{
+    height:3.8rem;
+    
+}
+.navbar-nav li{
+    margin:0px 14px;
+}
+/*End Navbar style*/
