@@ -38,18 +38,221 @@ margin:0;
 
 /*start landing home screen */
 #landing{
-    background: url('nrd-NpJgwFVHShE-unsplash.jpg') no-repeat cover cover fixed;
+    background:url('computer.jpg')no-repeat;
     display:table;
+    position: relative;
     width:100%;
     height:100%;
-    background-size:cover; 
+    background-size:cover;
+}
+.landing-inner{
+    width:100%;
+    max-width:100%;
+    height:100%;
+    background-color:rgba(26, 25, 25, 0.2);
+
 }
 .landing-text{
+    width:100%;
+    max-width:100%;
     display: table-cell;
     text-align: center;
     vertical-align: center;
     position: absolute;
     top:50%;
     left:50%;
+    z-index:1;
     transform: translate(-50%,-50%);
+    
+    /*padding:50px;*/
 }
+.landing-text h1{
+        color:white;
+        font-weight: 300;
+        text-shadow: .1rem .1rem .1rem black;
+    }    
+@media screen and (max-width:760px){
+    #landing{
+        background:url('coding2.jpg') no-repeat;
+        width:100%;
+        height:100%;
+        background-size:cover;   
+    
+    }
+    
+}
+@media screen and (max-width:440px){
+    #landing{
+        background:url('coding.jpg') no-repeat;
+        width:100%;
+        height:100%;
+        background-size:cover;
+    }
+    .landing-text h1{
+        font-size:25px;
+    }
+}
+/*END landing home screen*/
+
+/*Start course about courses section */
+
+.course-info{
+    padding:20px;
+    margin-top:10px;
+    box-shadow: rgba(0,0,0,.8);
+}
+.course-info1{
+    font-weight: 300;
+    margin-bottom: 30px;
+    color:rgb(236, 93, 10);
+}
+.btn-default{
+    background:rgb(236, 93, 10);
+    padding:10px;
+    border:1px solid grey;
+    border-radius:4px;
+    font-size:20px;
+    color:white;
+    font-weight:300;
+}
+.btn-default:hover{
+    background:rgb(241, 99, 17);
+}
+
+.infoBox{
+    position: relative;
+    width:100%;
+    height: 100%;
+    max-width: 100%;
+    padding:10px;
+}
+.infoBox .imgBox{
+    position: relative;
+    overflow: hidden;
+}
+.infoBox .imgBox img{
+    max-width:100%;
+    transition:transform 2s;
+}
+.infoBox:hover .imgBox img{
+    transform:scale(1.2);
+}
+
+.infoBox .textBox{
+    vertical-align: middle;
+    position:absolute;
+    top:10%;
+    right:10%;
+    padding:10px;
+    background:rgba(248, 248, 248, 0.657);
+    text-align:center;
+    transform:scaleY(0);
+    transition:transform .4s;
+    
+    max-width:100%;
+}
+.infoBox:hover .textBox
+ {
+     transform:scaleY(1);
+     transition:transform .2s;
+ }
+
+ @media screen and (max-width:1025px){
+    .infoBox .textBox{
+        vertical-align: middle;
+        position:absolute;
+        top:6%;
+        right:5%;
+        padding:9px;
+        background:rgba(248, 248, 248, 0.657);
+        text-align:center;
+        transform:scaleY(0);
+        transition:transform .4s;
+        font-size:14px;
+        max-width:100%;
+    }
+    .infoBox .textBox h2{
+        font-weight: 300;
+        font-size:20px;
+    }
+    .infoBox:hover .textBox
+     {
+         transform:scaleY(1);
+         transition:transform .2s;
+     }  
+ }
+
+ @media screen and (max-width:900px){
+    .infoBox .textBox{
+        vertical-align: middle;
+        position:absolute;
+        top:20%;
+        right:26%;
+        padding:20px;
+        background:rgba(248, 248, 248, 0.657);
+        text-align:center;
+        transform:scaleY(0);
+        transition:transform .4s;
+        font-size:14px;
+        max-width:100%;
+    }
+    .infoBox .textBox h2{
+        font-weight: 300;
+        font-size:25px;
+    }
+    .infoBox:hover .textBox
+     {
+         transform:scaleY(1);
+         transition:transform .2s;
+     }  
+    }
+    @media screen and (max-width:540px){
+        .infoBox .textBox{
+            vertical-align: middle;
+            position:absolute;
+            top:26%;
+            right:24%;
+            padding:20px;
+            background:rgba(248, 248, 248, 0.657);
+            text-align:center;
+            transform:scaleY(0);
+            transition:transform .4s;
+            font-size:14px;
+            max-width:100%;
+        }
+        .infoBox .textBox h2{
+            font-weight: 300;
+            font-size:25px;
+        }
+        .infoBox:hover .textBox
+         {
+             transform:scaleY(1);
+             transition:transform .2s;
+         }  
+        }
+        @media screen and (max-width:400px){
+            .infoBox .textBox{
+                vertical-align: middle;
+                position:absolute;
+                top:20%;
+                right:20%;
+                padding:20px;
+                background:rgba(248, 248, 248, 0.657);
+                text-align:center;
+                transform:scaleY(0);
+                transition:transform .4s;
+                font-size:14px;
+                max-width:100%;
+            }
+            .infoBox .textBox h2{
+                font-weight: 300;
+                font-size:25px;
+            }
+            .infoBox:hover .textBox
+             {
+                 transform:scaleY(1);
+                 transition:transform .2s;
+             }  
+            }
+
+/*End about courses section*/
