@@ -275,3 +275,23 @@ margin:0;
 .featureInfo3 i{
     color:rgb(9, 251, 219);
 }
+/*End of resources section*/
+
+/*Start teacher section*/
+.teacherBody{
+    background:grey;
+}
+.teacherImage img{
+    width:100%;
+}
+.teacherLink i{
+    padding:10px;
+    font-size:1.6rem;
+    border:1px solid green;
+    border-radius:10px;
+}
+.teacherLink i:hover{
+    background:rgba(164, 238, 135, 0.637);
+    color:white;
+}
+/*End teacher section */
