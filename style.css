@@ -295,3 +295,74 @@ margin:0;
     color:white;
 }
 /*End teacher section */
+/*Start Study plan section */
+.carousel{
+    height:450px;
+}
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  height: 100%;
+  width:auto;
+}
+
+.planStudy1{
+    position:absolute;
+    top:15%;
+  
+    border-radius:10px;
+    max-width:100%;
+    background:rgba(255, 255, 255, 0.609);
+    padding:60px;}
+.planStudy1 h2{
+    color:black;
+    font-weight: 400;
+}
+.planStudy1 p{
+    margin-top:20px;
+    color:black;
+   font-size:20px;
+   font-weight: 300;
+   padding:0px;
+   z-index: 1;
+}
+@media screen and (max-width:420px){
+    .planStudy1{
+        position:absolute;
+        top:10%;
+      
+        border-radius:10px;
+        max-width:100%;
+        background:rgba(255, 255, 255, 0.609);
+        padding:60px;}
+    .planStudy1 h2{
+        color:black;
+        font-weight: 400;
+    }
+    .planStudy1 p{
+        margin-top:10px;
+        color:black;
+       font-size:15px;
+       font-weight: 300;
+       padding:0px;
+       z-index: 1;
+    }  
+
+}
+/*End study plan section */
+
+/*Start contact section */
+    .contactLine{
+        background:rgba(15, 8, 3, 0.609);
+        padding:40px;
+        margin-top:30px;
+    }
+    .contactLine1 p{
+        color:black;
+        font-size:14px;
+       
+    }
+    .contactLine1 a{
+        color:black;
+    }
+/*End contact section */
