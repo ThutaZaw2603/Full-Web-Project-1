@@ -1,2 +1,5 @@
 # Project-2
  learning process
+
+IT IS A HTML ,CSS AND BOOTSTRAP PROJECT
+DESIGN FOR CODING COURSE;
